@@ -5,7 +5,7 @@
 
 
 /**
-* @brief Точка входа в программу
+* @brief РўРѕС‡РєР° РІС…РѕРґР° РІ РїСЂРѕРіСЂР°РјРјСѓ
 */
 int main() {
     std::string filename;
@@ -13,7 +13,7 @@ int main() {
 
     std::ofstream outFile(filename);
     if (!outFile) {
-        std::cerr << "Ошибка при открытии файла!" << std::endl;
+        std::cerr << "РћС€РёР±РєР° РїСЂРё РѕС‚РєСЂС‹С‚РёРё С„Р°Р№Р»Р°!" << std::endl;
         return 1;
     }
 
