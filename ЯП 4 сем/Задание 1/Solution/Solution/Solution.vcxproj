@@ -131,12 +131,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Solver\Solver.vcxproj">
-      <Project>{8b2079c8-eb21-4e1e-a2aa-cebf81b1d398}</Project>
-    </ProjectReference>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <Text Include="filename.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
