@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 #include <vector>
 #include <algorithm>   
@@ -24,7 +24,7 @@ int main() {
     const char* filename = "name";     
     std::ifstream fin(filename);
     if (!fin) {
-        std::cerr << "Íå óäàëîñü îòêðûòü ôàéë " << filename << "\n";
+        std::cerr << "ÐÐµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» " << filename << "\n";
         return 1;
     }
 
