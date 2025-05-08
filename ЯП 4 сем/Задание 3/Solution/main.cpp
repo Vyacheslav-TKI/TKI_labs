@@ -1,7 +1,8 @@
 ﻿#include <iostream>
 #include <vector>
 #include <map>
-#include <algorithm>    
+#include <algorithm>   
+#include <numeric>
 #include <functional>   
 
 int main() {
